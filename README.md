@@ -35,14 +35,14 @@ You must paste an initial genome that you want the simulator to evolve. You may 
 ##### `curr_gen.best(true);`
 - change `true` to `false` to not simulate the best version after every `50` generations in real time (this is good if you would like to keep the simulator running for a long time)
 
-#### Suggested starting genomes
+## Suggested starting genomes
 
 - Useless Genome (this will eventually evolve into Memory Genome)
 `000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000`
 
 - Your own genome
 
-#### End genomes evolved up till now
+## End genomes evolved up till now
 
 - Memory Genome (this yields an average score of ~485, it evolved after ~2000 generations from the useless genome)
 `250350050250350250150350120150130250150330250150150310350350050350220000350350000050030050000230050050030230050100050000200050050150320000000000000320050000300110150250250150350250150330020150250120250230150110110330330030210020210320240250210`
